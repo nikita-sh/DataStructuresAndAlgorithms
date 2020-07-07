@@ -143,18 +143,3 @@ void LinkedList::printList() {
 	}
 	std::cout << "NULL" << std::endl;
 }
-
-int main() {
-	LinkedList l = LinkedList();
-	l.addNode(1);
-	l.printList();
-	l.addNode(2);
-	l.printList();
-	l.addNode(3);
-	l.printList();
-	l.addAt(0, 3);
-	l.printList();
-	l.deleteAt(1);
-	l.printList();
-	
-}
