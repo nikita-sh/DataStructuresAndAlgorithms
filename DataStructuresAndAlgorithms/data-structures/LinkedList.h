@@ -19,6 +19,8 @@ public:
 	void addAt(int value, int position);
 	void deleteAt(int position);
 	void printList();
+	int get(int index);
+	void addToEnd(int value);
 };
 
 #endif

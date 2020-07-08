@@ -143,3 +143,17 @@ void LinkedList::printList() {
 	}
 	std::cout << "NULL" << std::endl;
 }
+
+int LinkedList::get(int index) {
+	ListNode *curr = head;
+	int curr_pos = 0;
+	while (curr_pos < index) {
+		curr = curr->getNext();
+	}
+
+	return curr->getValue();
+}
+
+void LinkedList::addToEnd(int value) {
+	addAt(value, length);
+}

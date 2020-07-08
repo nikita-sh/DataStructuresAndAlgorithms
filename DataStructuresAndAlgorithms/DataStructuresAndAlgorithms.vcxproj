@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -139,12 +139,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="data-structures\HashTable.h" />
+    <ClInclude Include="data-structures\Heap.h" />
     <ClInclude Include="data-structures\LinkedList.h" />
     <ClInclude Include="data-structures\ListNode.h" />
+    <ClInclude Include="data-structures\Queue.h" />
+    <ClInclude Include="data-structures\Stack.h" />
+    <ClInclude Include="data-structures\BinarySearchTree.h" />
+    <ClInclude Include="data-structures\BSTNode.h" />
+    <ClInclude Include="data-structures\Stack.h" />
+    <ClInclude Include="data-structures\Queue.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="data-structures\HashTable.cpp" />
+    <ClCompile Include="data-structures\Heap.cpp" />
     <ClCompile Include="data-structures\ListNode.cpp" />
     <ClCompile Include="data-structures\LinkedList.cpp" />
+    <ClCompile Include="data-structures\Queue.cpp" />
+    <ClCompile Include="data-structures\Stack.cpp" />
+    <ClCompile Include="data-structures\BinarySearchTree.cpp" />
+    <ClCompile Include="data-structures\BSTNode.cpp" />
+    <ClCompile Include="data-structures\Stack.cpp" />
+    <ClCompile Include="data-structures\Queue.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
